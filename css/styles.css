@@ -160,6 +160,12 @@ body {
     text-transform: uppercase;
     color: var(--header-text-color2);
 }
+.characteristic-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding: 94px 15px 0px 15px;
+}
 .characteristic-list {
     display: flex;
 }
@@ -169,8 +175,16 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
+    margin-right: 30px;
+    padding-top: 10px;
 }
 /* ----------------ABOUt US----------*/
+.business-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding: 94px 15px 94px 15px;
+}
 .business {
     font-weight: 700;
     font-size: 36px;
@@ -178,6 +192,20 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+    margin-bottom: 50px;
+}
+.business-list {
+    display: flex;
+}
+.business-item {
+    margin-right: 30px;
+}
+.team-container {
+    margin: auto;
+    padding: auto;
+    width: 1200px;
+    padding: 94px 15px 94px 15px;
+    background: #f5f4fa;
 }
 .team {
     font-weight: 700;
@@ -187,6 +215,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--first-text-color);
 }
+.team-list {
+    display: flex;
+}
 .team-title {
     font-weight: 500;
     font-size: 16px;
@@ -194,6 +225,13 @@ body {
     text-align: center;
     letter-spacing: 0.03em;
     color: var(--first-text-color);
+}
+.team-item {
+    margin-right: 30px;
+    padding-top: 50px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+        0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 .team-text {
     font-weight: normal;
