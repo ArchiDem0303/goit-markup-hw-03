@@ -5,6 +5,22 @@
     --header-text-color1: #ffffff;
     --header-text-color2: #212121;
 }
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+button {
+    cursor: pointer;
+}
 body {
     font-family: 'Roboto';
 }
@@ -15,6 +31,22 @@ body {
     text-decoration: none;
 }
 /*------------HEADER---------------*/
+.header-container {
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.header-navigation {
+    display: flex;
+    align-items: center;
+}
+.header-list {
+    display: flex;
+}
+
 .header-link {
     font-family: Roboto;
     font-weight: 500;
@@ -22,6 +54,9 @@ body {
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--header-text-color2);
+}
+.header-connect {
+    margin-left: auto;
 }
 .header-link:hover,
 .header-link:focus {
