@@ -230,7 +230,6 @@ body {
 }
 .team-item {
     margin-right: 30px;
-    padding-top: 50px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
@@ -243,6 +242,9 @@ body {
     letter-spacing: 0.03em;
     color: var(--second-text-color);
     margin-bottom: 30px;
+}
+.footer-main-container {
+    background: #2f303a;
 }
 .footer-container {
     margin: auto;
@@ -286,6 +288,9 @@ body {
     color: var(--header-text-color1);
     margin-bottom: 9px;
 }
+.footer-contacks-item {
+    margin-bottom: 9px;
+}
 .footer-mail {
     font-style: normal;
     font-weight: normal;
@@ -325,6 +330,9 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+.portfolio-container {
+    margin-top: 94px;
+}
 .choise-menu {
     display: flex;
     justify-content: center;
@@ -342,11 +350,20 @@ body {
     color: var(--first-text-color);
     background: #f5f4fa;
     border-radius: 4px;
+    margin: 0;
 }
 .menu-button:hover,
 .menu-button:focus {
     color: var(--header-text-color1);
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+.button-active {
+    color: var(--header-text-color1);
+    background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*---------------PORTFOLIOLIST-------------*/
 .portfolio-title {
@@ -355,6 +372,9 @@ body {
     line-height: 2;
     letter-spacing: 0.06em;
     color: var(--first-text-color);
+}
+.portfolio-list {
+    display: flex;
 }
 .portfolio-text {
     font-weight: normal;
