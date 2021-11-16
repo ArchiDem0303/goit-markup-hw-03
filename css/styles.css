@@ -4,6 +4,7 @@
     --accent-color: #2196f3;
     --header-text-color1: #ffffff;
     --header-text-color2: #212121;
+    --main-bg-user: #2196f3;
 }
 p,
 h1,
@@ -401,4 +402,7 @@ body {
     line-height: 1.87;
     letter-spacing: 0.03em;
     color: var(--second-text-color);
+}
+.portfolio-title .portfolio-text {
+    padding: 20px 24px;
 }
