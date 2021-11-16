@@ -350,7 +350,6 @@ body {
     color: var(--first-text-color);
     background: #f5f4fa;
     border-radius: 4px;
-    margin: 0;
 }
 .menu-button:hover,
 .menu-button:focus {
@@ -366,6 +365,16 @@ body {
         0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 /*---------------PORTFOLIOLIST-------------*/
+.portfolio-item {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: calc((100% - 60px) / 4);
+}
+/*.portfolio-item:nth-child(3n - 2) {
+}
+.portfolio-item:nth-child(-n + 3) {
+}*/
 .portfolio-title {
     font-weight: bold;
     font-size: 18px;
@@ -373,8 +382,18 @@ body {
     letter-spacing: 0.06em;
     color: var(--first-text-color);
 }
-.portfolio-list {
+.portfolio {
     display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+    padding-bottom: 94px;
+}
+.info {
+    padding: 20px 24px 20px 24px;
+    outline: 1px solid #eeeeee;
 }
 .portfolio-text {
     font-weight: normal;
