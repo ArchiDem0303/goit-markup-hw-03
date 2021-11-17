@@ -206,6 +206,7 @@ body {
 .business-item {
     margin-right: 30px;
 }
+/*-------------------OUR TEAM------------*/
 .team-container {
     margin: auto;
     padding: auto;
@@ -227,6 +228,7 @@ body {
     margin-top: 50px;
     width: 1170px;
     height: 368px;
+    margin-left: 455px;
 }
 .team-title {
     font-weight: 500;
@@ -382,7 +384,6 @@ body {
     margin-right: 30px;
     margin-left: 30px;
     margin-bottom: 30px;
-    /*width: calc((100% - 60px) / 3);*/
     display: block;
     width: auto;
     flex-basis: calc(100% / 3 - 60px);
@@ -413,7 +414,7 @@ body {
     outline: 1px solid #eeeeee;
 }
 .portfolio-text {
-    font-weight: normal;
+    font-weight: bold;
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.03em;
