@@ -385,7 +385,6 @@ body {
     margin-left: 30px;
     margin-bottom: 30px;
     display: block;
-    width: auto;
     flex-basis: calc(100% / 3 - 60px);
 }
 .img-portfolio {
