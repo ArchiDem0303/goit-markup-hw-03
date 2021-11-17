@@ -138,6 +138,9 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--header-text-color1);
+    margin-bottom: 30px;
+    width: 696px;
+    display: inline-block;
 }
 .button {
     background-color: var(--accent-color);
@@ -372,10 +375,6 @@ body {
     margin-bottom: 30px;
     width: calc((100% - 60px) / 4);
 }
-/*.portfolio-item:nth-child(3n - 2) {
-}
-.portfolio-item:nth-child(-n + 3) {
-}*/
 .portfolio-title {
     font-weight: bold;
     font-size: 18px;
