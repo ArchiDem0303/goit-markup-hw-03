@@ -254,6 +254,7 @@ body {
     line-height: 1.187;
     text-align: center;
     letter-spacing: 0.03em;
+    margin-bottom: 30px;
     color: var(--second-text-color);
 }
 .footer-main-container {
